@@ -168,11 +168,11 @@ function UtilFactory($document, $timeout, $compile, $rootScope, $$mdAnimate, $in
         // (arrow keys, spacebar, tab, etc).
         function disableKeyNav(e) {
           //-- temporarily removed this logic, will possibly re-add at a later date
-          return;
+         /* return;
           if (!element[0].contains(e.target)) {
             e.preventDefault();
             e.stopImmediatePropagation();
-          }
+          }*/
         }
 
         function preventDefault(e) {
